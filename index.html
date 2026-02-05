@@ -27,16 +27,14 @@
     }
 
     /* Page container (screen) */
-.page {
-  width: 100%;
-  max-width: 900px; /* ou 800px selon ton design */
-  min-height: auto;
-  margin: 14px auto;
-  background: #fff;
-  padding: var(--pad-top) var(--pad-x) var(--pad-bottom);
-  position: relative;
-  box-sizing: border-box;
-}
+    .page{
+      width: var(--page-w);
+      min-height: var(--page-h);
+      margin: 14px auto;
+      background:#fff;
+      padding: var(--pad-top) var(--pad-x) var(--pad-bottom);
+      position: relative;
+    }
 
     /* Print */
     @media print{
